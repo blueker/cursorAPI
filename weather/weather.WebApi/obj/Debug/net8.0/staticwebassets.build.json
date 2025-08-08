@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "/tV6qAxHV1D9OxQmnvEIrxoT136oJPZlby0Dqe23/h8=",
-  "Source": "CleanArch.FreeSql.WebApi",
-  "BasePath": "_content/CleanArch.FreeSql.WebApi",
+  "Hash": "XaBqggwQ6iAgnd5697qXPrjzT2XDUOwZJ0y3HKqXwDc=",
+  "Source": "weather.WebApi",
+  "BasePath": "_content/weather.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

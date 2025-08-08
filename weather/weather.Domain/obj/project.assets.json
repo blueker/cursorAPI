@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj",
-      "projectName": "CleanArch.FreeSql.Domain",
-      "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj",
+      "projectUniqueName": "/workspace/weather/weather.Domain/weather.Domain.csproj",
+      "projectName": "weather.Domain",
+      "projectPath": "/workspace/weather/weather.Domain/weather.Domain.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/obj/",
+      "outputPath": "/workspace/weather/weather.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

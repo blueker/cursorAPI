@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LG826IVOcTk=",
+  "success": true,
+  "projectFilePath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.8/microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

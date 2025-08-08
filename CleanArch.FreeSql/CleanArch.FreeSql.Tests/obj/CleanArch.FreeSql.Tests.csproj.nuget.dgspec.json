@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Tests/CleanArch.FreeSql.Tests.csproj": {}
+  },
+  "projects": {
+    "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj",
+        "projectName": "CleanArch.FreeSql.Application",
+        "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj",
+        "projectName": "CleanArch.FreeSql.Domain",
+        "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/CleanArch.FreeSql.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/CleanArch.FreeSql.Infrastructure.csproj",
+        "projectName": "CleanArch.FreeSql.Infrastructure",
+        "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/CleanArch.FreeSql.Infrastructure.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj"
+              },
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FreeSql": {
+              "target": "Package",
+              "version": "[3.5.212, )"
+            },
+            "FreeSql.Extensions.LazyLoading": {
+              "target": "Package",
+              "version": "[3.5.212, )"
+            },
+            "FreeSql.Provider.Sqlite": {
+              "target": "Package",
+              "version": "[3.5.212, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Tests/CleanArch.FreeSql.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Tests/CleanArch.FreeSql.Tests.csproj",
+        "projectName": "CleanArch.FreeSql.Tests",
+        "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Tests/CleanArch.FreeSql.Tests.csproj",
+        "packagesPath": "/home/ubuntu/.nuget/packages/",
+        "outputPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/CleanArch.FreeSql.Application.csproj"
+              },
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj"
+              },
+              "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/CleanArch.FreeSql.Infrastructure.csproj": {
+                "projectPath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Infrastructure/CleanArch.FreeSql.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

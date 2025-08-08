@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/tV6qAxHV1D9OxQmnvEIrxoT136oJPZlby0Dqe23/h8=",
+  "Source": "CleanArch.FreeSql.WebApi",
+  "BasePath": "_content/CleanArch.FreeSql.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

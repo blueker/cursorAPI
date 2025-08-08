@@ -1,0 +1,16 @@
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.csproj.AssemblyReference.cache
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.AssemblyInfoInputs.cache
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.AssemblyInfo.cs
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.csproj.CoreCompileInputs.cache
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.sourcelink.json
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/bin/Debug/net8.0/CleanArch.FreeSql.Application.deps.json
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/bin/Debug/net8.0/CleanArch.FreeSql.Application.dll
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/bin/Debug/net8.0/CleanArch.FreeSql.Application.pdb
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/bin/Debug/net8.0/CleanArch.FreeSql.Domain.dll
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/bin/Debug/net8.0/CleanArch.FreeSql.Domain.pdb
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArc.5A5336DD.Up2Date
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.dll
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/refint/CleanArch.FreeSql.Application.dll
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/CleanArch.FreeSql.Application.pdb
+/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Application/obj/Debug/net8.0/ref/CleanArch.FreeSql.Application.dll

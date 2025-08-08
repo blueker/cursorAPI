@@ -1,0 +1,19 @@
+# Build outputs
+bin/
+obj/
+# VS/IDE
+.vs/
+*.user
+*.suo
+# Test results
+TestResults/
+# Rider/JetBrains
+.idea/
+*.iml
+# Logs
+*.log
+# NuGet
+packages/
+*.nupkg
+# Others
+launchSettings.json.user

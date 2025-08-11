@@ -22,10 +22,24 @@ public sealed class TodosController : ControllerBase
         return Ok(list);
     }
 
+    [HttpPost("list")]
+    public async Task<ActionResult<IReadOnlyList<TodoResponse>>> ListPostAsync(CancellationToken cancellationToken)
+    {
+        var list = await _todoService.ListAsync(cancellationToken);
+        return Ok(list);
+    }
+
     [HttpGet("{id:long}")]
     public async Task<ActionResult<TodoResponse>> GetAsync(long id, CancellationToken cancellationToken)
     {
         var item = await _todoService.GetAsync(id, cancellationToken);
+        return item is null ? NotFound() : Ok(item);
+    }
+
+    [HttpPost("detail")]
+    public async Task<ActionResult<TodoResponse>> GetPostAsync([FromBody] IdRequest request, CancellationToken cancellationToken)
+    {
+        var item = await _todoService.GetAsync(request.Id, cancellationToken);
         return item is null ? NotFound() : Ok(item);
     }
 
@@ -47,6 +61,13 @@ public sealed class TodosController : ControllerBase
     public async Task<ActionResult> DeleteAsync(long id, CancellationToken cancellationToken)
     {
         var ok = await _todoService.DeleteAsync(id, cancellationToken);
+        return ok ? NoContent() : NotFound();
+    }
+
+    [HttpPost("delete")]
+    public async Task<ActionResult> DeletePostAsync([FromBody] IdRequest request, CancellationToken cancellationToken)
+    {
+        var ok = await _todoService.DeleteAsync(request.Id, cancellationToken);
         return ok ? NoContent() : NotFound();
     }
 }

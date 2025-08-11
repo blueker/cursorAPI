@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UnNyOGbbbiU=",
+  "dgSpecHash": "0wNwyb9dP1ab0hhOVAXdgDRjo9o/lu65tjzftIkWV3/FlXbDApRspf5XeRmc98QFB2XLifaSZ518uo48qJTAig==",
   "success": true,
-  "projectFilePath": "/workspace/CleanArch.FreeSql/CleanArch.FreeSql.Domain/CleanArch.FreeSql.Domain.csproj",
+  "projectFilePath": "/workspace/weather/weather.Domain/weather.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

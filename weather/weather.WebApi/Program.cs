@@ -19,7 +19,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
+
 app.UseHttpsRedirection();
+app.UseMiddleware<weather.WebApi.Middleware.EncryptionMiddleware>();
 app.UseAuthorization();
 app.MapControllers();
 
